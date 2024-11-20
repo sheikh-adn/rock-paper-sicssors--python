@@ -2,12 +2,12 @@ import random
 '''
  1 for rock
 -1 for paper
-0 for siccors
+0 for scissors
 
 '''
 computer = random.choice([-1,1,0])
-youstr = { "rock": 1 , "paper": -1 , "siccors": 0 }
-rdict = { 1 : "Rock",-1 : "Paper",0 : "Siccors"}
+youstr = { "rock": 1 , "paper": -1 , "scissors": 0 }
+rdict = { 1 : "Rock",-1 : "Paper",0 : "Scissors"}
 
 print("YOUR CHOICE!") 
 yourin = input("-")
